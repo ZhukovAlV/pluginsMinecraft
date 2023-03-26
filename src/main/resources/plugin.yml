@@ -1,0 +1,26 @@
+name: testPluginMinecraft
+version: '${project.version}'
+main: ru.javakids.testpluginminecraft.TestPluginMinecraft
+api-version: 1.18
+
+description: My first plugin
+
+commands:
+  calculator:
+    description: калькулятор
+    aliases:
+      - calc
+    usage: /calc <num1> <+|-|/|*> <num1>
+
+  message:
+    aliases:
+      - m
+    usage: /m <hello|goodbye|whatsup>
+
+  spawnEntity:
+    aliases:
+      - se
+
+  giveItem:
+    aliases:
+      - gt
